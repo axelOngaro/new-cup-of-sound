@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  font-family: "Jost", sans-serif;
+  align-items: center;
+  padding: 0 8%;
+  .link {
+    text-decoration: none;
+    color: orange;
+  }
+}
+
+.nav {
+  width: 50vw;
+  ul {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  font-size: 10rem;
+}
+
+.reseau {
+  font-size: 4rem;
+  li {
+    padding: 0.4em 0;
+  }
+}
+
+.reseau__title {
+  padding: 1em 0;
+}

@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  -webkit-transition: ease-in 1s;
+  transition: ease-in 1s;
+}
+
+.light {
+  color: black;
+  background-color: white;
+  -webkit-transition: ease-in 1s;
+  transition: ease-in 1s;
+}
+
+.header {
+  color: blue;
+  font-family: "Jost", sans-serif;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 2rem;
+  padding: 1em 4em;
+}
+
+.header .link {
+  text-decoration: none;
+}
+
+.header .colour {
+  cursor: pointer;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Jost", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 8%;
+}
+
+.menu .link {
+  text-decoration: none;
+  color: orange;
+}
+
+.nav {
+  width: 50vw;
+  font-size: 10rem;
+}
+
+.nav ul {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.reseau {
+  font-size: 4rem;
+}
+
+.reseau li {
+  padding: 0.4em 0;
+}
+
+.reseau__title {
+  padding: 1em 0;
+}
+/*# sourceMappingURL=styles.css.map */

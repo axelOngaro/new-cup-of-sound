@@ -1,0 +1,15 @@
+.header {
+  color: blue;
+  font-family: "Jost", sans-serif;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 1em 4em;
+  .link {
+    text-decoration: none;
+  }
+  .colour {
+    cursor: pointer;
+  }
+}

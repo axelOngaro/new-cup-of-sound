@@ -1,65 +1,33 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Header from "../components/Header";
+import { useState } from "react";
 
 export default function Home() {
+  const [isDark, setDark] = useState("true");
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+    <div className={isDark ? "dark" : "light"}>
+      <Header isDark={isDark} setDark={setDark} />
+      <h1>coucou</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse
+        perspiciatis incidunt ad enim. Fugiat ipsam beatae cumque voluptatum aut
+        adipisci consectetur et dolore laboriosam, dignissimos earum omnis saepe
+        nihil numquam magnam, nobis odio, magni assumenda neque? Impedit ab
+        dolorum adipisci ea et. Inventore repellat consequuntur quibusdam.
+        Officia, quam inventore ad voluptatem distinctio architecto aspernatur!
+        Molestiae deleniti labore explicabo tempore dolores hic veniam illo
+        alias facilis sunt veritatis voluptates numquam, dolore vero ipsum autem
+        praesentium ratione enim cumque sint unde accusantium. Quos iste
+        exercitationem commodi repellendus, unde illum velit officiis, soluta
+        iusto nobis esse voluptatibus. Eligendi sit sequi enim id ea cum non
+        minima nemo expedita reprehenderit, maiores pariatur quas cupiditate
+        ducimus maxime delectus odio. Dolore, eaque sed rerum perspiciatis
+        soluta accusantium reprehenderit voluptas tenetur non consequatur neque
+        est dolorem impedit, cumque sit hic amet tempora incidunt provident aut
+        vel inventore exercitationem sunt quis. Dolores iure temporibus
+        molestias vitae magnam.
+      </p>
     </div>
-  )
+  );
 }
