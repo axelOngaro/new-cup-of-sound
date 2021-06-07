@@ -2,9 +2,36 @@ import Header from "../components/Header";
 
 export default function contact() {
   return (
-    <div>
+    <div className="contact">
       <Header />
-      <h1>contact page</h1>
+      <main className="contact__content">
+        <p>contactez moi.</p>
+        <p className="email">
+          <a href="https://www.google.com">contact@gmail.com</a>
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.google.com" target="_blank">
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com" target="_blank">
+              SoundCloud
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com" target="_blank">
+              Youtube
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com" target="_blank">
+              Instagram
+            </a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
