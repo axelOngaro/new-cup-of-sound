@@ -1,10 +1,15 @@
-import Header from "../components/Header";
+import Header from '../components/Header';
+import YoutubeEmbed from '../components/YoutubeEmbed';
 
 export default function work() {
   return (
     <div>
       <Header />
-      <h1>work page</h1>
+      <section>
+        <article>
+          <YoutubeEmbed embedId="rokGy0huYEA" />
+        </article>
+      </section>
     </div>
   );
 }
