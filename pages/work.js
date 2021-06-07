@@ -5,9 +5,40 @@ export default function work() {
   return (
     <div>
       <Header />
-      <section>
+      <h1>Work.</h1>
+      <section className="work__projects">
         <article>
-          <YoutubeEmbed embedId="rokGy0huYEA" />
+          <YoutubeEmbed embedId="-qrYeWAMjvI" />
+          <p className="work__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta aliquam nisi
+            adipiscing proin sit tristique nunc nunc facilisis. Venenatis ipsum
+            suspendisse iaculis lectus nisi, rhoncus posuere dignissim sed. Ut enim
+            maecenas tortor, volutpat magna. Semper felis lectus amet vel tellus rutrum
+            et. Cras elementum vitae est, eu. Congue odio urna quisque aliquet sodales
+            semper.
+          </p>
+        </article>
+        <article>
+          <YoutubeEmbed embedId="MWZam4jJrJg" />
+          <p className="work__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta aliquam nisi
+            adipiscing proin sit tristique nunc nunc facilisis. Venenatis ipsum
+            suspendisse iaculis lectus nisi, rhoncus posuere dignissim sed. Ut enim
+            maecenas tortor, volutpat magna. Semper felis lectus amet vel tellus rutrum
+            et. Cras elementum vitae est, eu. Congue odio urna quisque aliquet sodales
+            semper.
+          </p>
+        </article>
+        <article>
+          <YoutubeEmbed embedId="-4N4M45Zdck" />
+          <p className="work__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta aliquam nisi
+            adipiscing proin sit tristique nunc nunc facilisis. Venenatis ipsum
+            suspendisse iaculis lectus nisi, rhoncus posuere dignissim sed. Ut enim
+            maecenas tortor, volutpat magna. Semper felis lectus amet vel tellus rutrum
+            et. Cras elementum vitae est, eu. Congue odio urna quisque aliquet sodales
+            semper.
+          </p>
         </article>
       </section>
     </div>
