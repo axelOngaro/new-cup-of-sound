@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from '../components/Header';
 
 export default function contact() {
   return (
@@ -9,7 +9,7 @@ export default function contact() {
         <p className="email">
           <a href="https://www.google.com">contact@gmail.com</a>
         </p>
-        <ul>
+        <ul className="resea__list">
           <li>
             <a href="https://www.google.com" target="_blank">
               Facebook

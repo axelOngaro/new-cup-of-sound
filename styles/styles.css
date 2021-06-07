@@ -3,6 +3,7 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Jost', sans-serif;
 }
 
 ul {
@@ -24,8 +25,6 @@ ul {
 }
 
 .header {
-  color: blue;
-  font-family: "Jost", sans-serif;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,12 +32,13 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 2rem;
-  padding: 1em 4em;
+  font-size: 1rem;
+  padding: 1em 1em;
 }
 
 .header .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .header .colour {
@@ -49,7 +49,6 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Jost", sans-serif;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -58,16 +57,23 @@ ul {
 
 .menu .link {
   text-decoration: none;
-  color: orange;
+  color: inherit;
 }
 
 .nav {
   width: 50vw;
-  font-size: 10rem;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
 }
 
 .nav ul {
-  height: 100vh;
+  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +87,7 @@ ul {
 }
 
 .reseau {
-  font-size: 4rem;
+  font-size: 0.8rem;
 }
 
 .reseau li {
@@ -90,6 +96,7 @@ ul {
 
 .reseau__title {
   padding: 1em 0;
+  font-weight: 700;
 }
 
 .contact {
@@ -101,7 +108,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 .contact a {
@@ -118,6 +125,7 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 10%;
+  font-size: 0.8rem;
 }
 
 .contact__content {
@@ -141,7 +149,30 @@ ul {
 }
 
 .email {
-  font-size: 3rem;
+  font-size: 2.3rem;
   padding-bottom: 20%;
+}
+
+.landing-page {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.landing-page .title {
+  padding: 3em 0;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */

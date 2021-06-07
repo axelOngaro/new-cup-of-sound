@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function menu() {
   return (
@@ -17,12 +17,12 @@ export default function menu() {
           </li>
           <li className="nav__list__item">
             <Link href="/tarif">
-              <a className="link">Mes tarifs.</a>
+              <a className="link">Tarifs.</a>
             </Link>
           </li>
           <li className="nav__list__item">
             <Link href="/contact">
-              <a className="link">Me contacter.</a>
+              <a className="link">Contact.</a>
             </Link>
           </li>
         </ul>

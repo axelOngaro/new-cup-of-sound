@@ -1,13 +1,12 @@
 .header {
-  color: blue;
-  font-family: "Jost", sans-serif;
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  font-size: 2rem;
-  padding: 1em 4em;
+  font-size: 1rem;
+  padding: 1em 1em;
   .link {
     text-decoration: none;
+    color: inherit;
   }
   .colour {
     cursor: pointer;
