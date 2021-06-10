@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import YoutubeEmbed from '../components/YoutubeEmbed';
 
-export default function work() {
+export default function work({ work_list }) {
   return (
     <div>
       <Header />
@@ -47,6 +47,33 @@ export default function work() {
           </p>
         </article>
       </section>
+      <section className="work__projects--secondary">
+        <ul className="work__list">
+          {work_list.map((work) => {
+            return (
+              <a href={work.link} target="_blank">
+                <li key={work.id} className="work__list__item">
+                  <p>{work.type}</p>
+                  <p>{work.title}</p>
+                  <p>{work.artist}</p>
+                </li>
+              </a>
+            );
+          })}
+        </ul>
+      </section>
     </div>
   );
+}
+
+export async function getStaticProps(context) {
+  const response = await fetch('http://localhost:1337/pages');
+  const [data] = await response.json();
+  const { work_list } = data;
+  // console.log(work_list);
+
+  // console.log(data);
+  return {
+    props: { work_list }, // will be passed to the page component as props
+  };
 }

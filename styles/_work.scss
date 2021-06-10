@@ -3,6 +3,30 @@
   text-align: center;
 }
 
+.work__list {
+  width: 70vw;
+  font-size: 0.5rem;
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+}
+.work__list__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em 0;
+  p {
+    display: inline-block;
+  }
+}
+
+.work__projects--secondary {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and(min-width:700px) {
   .work__description {
     width: 50%;
@@ -17,5 +41,12 @@
   }
   .second__project {
     flex-direction: row-reverse;
+  }
+  .work__list {
+    width: 60vw;
+  }
+  .work__projects--secondary {
+    display: flex;
+    justify-content: flex-end;
   }
 }
