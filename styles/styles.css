@@ -195,4 +195,28 @@ ul {
   padding: 3em 2em;
   text-align: center;
 }
+
+@media screen and (min-width: 700px) {
+  .work__description {
+    width: 50%;
+  }
+  .main__projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2em 0;
+  }
+  .video__wrapper {
+    width: 50%;
+  }
+  .second__project {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

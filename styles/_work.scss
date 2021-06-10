@@ -2,3 +2,20 @@
   padding: 3em 2em;
   text-align: center;
 }
+
+@media screen and(min-width:700px) {
+  .work__description {
+    width: 50%;
+  }
+  .main__projects {
+    display: flex;
+    align-items: center;
+    padding: 2em 0;
+  }
+  .video__wrapper {
+    width: 50%;
+  }
+  .second__project {
+    flex-direction: row-reverse;
+  }
+}

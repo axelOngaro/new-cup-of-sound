@@ -7,8 +7,10 @@ export default function work() {
       <Header />
       <h1>Work.</h1>
       <section className="work__projects">
-        <article>
-          <YoutubeEmbed embedId="-qrYeWAMjvI" />
+        <article className="main__projects">
+          <div className="video__wrapper">
+            <YoutubeEmbed embedId="-qrYeWAMjvI" />
+          </div>
           <p className="work__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta aliquam nisi
             adipiscing proin sit tristique nunc nunc facilisis. Venenatis ipsum
@@ -18,8 +20,10 @@ export default function work() {
             semper.
           </p>
         </article>
-        <article>
-          <YoutubeEmbed embedId="MWZam4jJrJg" />
+        <article className="main__projects second__project">
+          <div className="video__wrapper">
+            <YoutubeEmbed embedId="MWZam4jJrJg" />
+          </div>
           <p className="work__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta aliquam nisi
             adipiscing proin sit tristique nunc nunc facilisis. Venenatis ipsum
@@ -29,8 +33,10 @@ export default function work() {
             semper.
           </p>
         </article>
-        <article>
-          <YoutubeEmbed embedId="-4N4M45Zdck" />
+        <article className="main__projects">
+          <div className="video__wrapper">
+            <YoutubeEmbed embedId="-4N4M45Zdck" />
+          </div>
           <p className="work__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta aliquam nisi
             adipiscing proin sit tristique nunc nunc facilisis. Venenatis ipsum
